@@ -38,10 +38,9 @@ frisby.create('Create an entry via POST')
       it('can update an entry on the API', function() {
 
         frisby.create('Update character')
-          .put(url + 'turtles/' + characterId, { forceUser: true })
+          .put(url + 'turtles/' + characterId, { colour: 'purple' })
           .expectStatus(200)
           .afterJSON(function(json) {
-
 
             expect(json.hasOwnProperty('_id')).toBe(true);
 

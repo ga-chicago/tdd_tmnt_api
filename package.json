@@ -1,18 +1,19 @@
 {
-  "name": "tmntapi",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "tdd_tmnt_api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "test": "jasmine-node spec"
   },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "body-parser": "^1.13.3",
-    "express": "^4.13.3",
-    "http": "0.0.0",
-    "jasmine-node": "^1.14.5",
-    "mongoose": "^4.1.6"
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "less-middleware": "1.0.x",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }
