@@ -1,0 +1,18 @@
+{
+  "name": "tmntapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "jasmine-node": "^1.14.5",
+    "mongoose": "^4.1.6"
+  }
+}
