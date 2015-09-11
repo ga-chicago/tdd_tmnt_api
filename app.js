@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+require('./models/db'); // /models/db.js
+
 var turtles = require('./controllers/index');
 
 var app = express();
